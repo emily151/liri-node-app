@@ -30,7 +30,8 @@ function movie() {
   }
   request(
     "http://www.omdbapi.com/?t=" + userInput + "&apikey=c8776a55",
-    function(err, body) {
+    function(err, response, body) {
+      console.log("statusCode:", response && response.statusCode);
       console.log("Title: " + JSON.parse(body).Title);
       console.log("Year: " + JSON.parse(body).Year);
       console.log("Rating: " + JSON.parse(body).imdbRating);
