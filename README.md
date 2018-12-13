@@ -1,6 +1,6 @@
 # liri-node-app
 
-![Screenshot1](./band.png)
+![Screenshot1](./Band.png)
 Format: ![Alt Text](url)
 
 ![Screenshot1](./movie.png)
