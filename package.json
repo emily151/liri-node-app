@@ -1,0 +1,29 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "I love node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emily151/liri-node-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emily151/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/emily151/liri-node-app#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "dotenv": "^6.1.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^1.12.4",
+    "moment": "^2.22.2",
+    "node-spotify-api": "^1.0.7",
+    "popper.js": "^1.14.3",
+    "request": "^2.88.0"
+  }
+}
